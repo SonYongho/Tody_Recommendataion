@@ -32,10 +32,10 @@ class Closet(models.Model): #옷장모델
     closet_sub_category =  models.TextField(max_length=20, default='')
     
 
-    closet_spring = models.BooleanField(default = True)
-    closet_summer = models.BooleanField(default = True)
-    closet_fall = models.BooleanField(default = True)
-    closet_winter = models.BooleanField(default = True)
+    closet_spring = models.BooleanField(default = '')
+    closet_summer = models.BooleanField(default = '')
+    closet_fall = models.BooleanField(default = '')
+    closet_winter = models.BooleanField(default = '')
 
     
     closet_color = models.CharField(max_length=100,default='')
